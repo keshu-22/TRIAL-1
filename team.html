@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d4edda; /* light green shade */
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background-color: #155724; /* darker green for contrast */
+      color: white;
+      font-size: 2.5em;
+      margin: 0;
+      letter-spacing: 3px;
+    }
+
+    .team-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .team-member {
+      background: white;
+      border: 2px solid #28a745;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .team-member:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .team-member img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #28a745;
+      margin-bottom: 15px;
+    }
+
+    .team-member a {
+      text-decoration: none;
+      color: #155724;
+      font-size: 1.2em;
+      font-weight: bold;
+      display: block;
+      transition: color 0.3s ease;
+    }
+
+    .team-member a:hover {
+      color: #28a745;
+    }
+
+    .team-member a:active {
+      color: #0c3d0e;
+    }
+
+    .role {
+      font-size: 1em;
+      color: #444;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>OUR TEAM</h1>
+  <div class="team-container">
+    <div class="team-member">
+      <img src="person1.jpg" alt="Person 1">
+      <a href="https://www.google.com" target="_blank">ADITYA RAJ KESHRI</a>
+      <p class="role">Leader</p>
+    </div>
+    <div class="team-member">
+      <img src="person2.jpg" alt="Person 2">
+      <a href="https://www.google.com" target="_blank">KESHAV SHARMA</a>
+      <p class="role">FRONTEND</p>
+    </div>
+    <div class="team-member">
+      <img src="person3.jpg" alt="Person 3">
+      <a href="https://www.google.com" target="_blank">ANANT</a>
+      <p class="role">BACKEND</p>
+    </div>
+    <div class="team-member">
+      <img src="person4.jpg" alt="Person 4">
+      <a href="https://www.google.com" target="_blank">DEV BHATT</a>
+      <p class="role">DATABASES</p>
+    </div>
+    <div class="team-member">
+      <img src="person5.jpg" alt="Person 5">
+      <a href="https://www.google.com" target="_blank">ADITI TYAGI</a>
+      <p class="role">RESEARCH</p>
+    </div>
+    <div class="team-member">
+      <img src="person6.jpg" alt="Person 6">
+      <a href="https://www.google.com" target="_blank">HARSH YADAV</a>
+      <p class="role">DESIGN</p>
+    </div>
+  </div>
+</body>
+</html>
